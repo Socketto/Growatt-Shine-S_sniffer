@@ -85,3 +85,4 @@ TestResults/
 # Altri file temporanei di MPLAB X
 *.bak
 *.swp
+rs232-rs485sniffer/fp-info-cache
