@@ -859,173 +859,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4937"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4937"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88508/1n4933.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fast Switching Plastic Rectifier, VRRM 600V, IF(AV) 1.0A, trr 200ns, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4937_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4937_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_UART:MAX232"
 			(pin_names
 				(offset 1.016)
@@ -2508,17 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 105.41) (xy 31.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198a7969-0897-424a-bf8f-be89ded757e1")
-	)
-	(wire
-		(pts
-			(xy 31.75 86.36) (xy 31.75 97.79)
+			(xy 31.75 86.36) (xy 31.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 100.33) (xy 62.23 91.44)
+			(xy 62.23 91.44) (xy 62.23 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2925,16 +2748,6 @@
 			(type default)
 		)
 		(uuid "b2dde239-33e3-41bb-975b-f1d25d658815")
-	)
-	(wire
-		(pts
-			(xy 62.23 121.92) (xy 62.23 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8309de0-5472-444f-805a-f360f1378ce2")
 	)
 	(wire
 		(pts
@@ -3234,94 +3047,6 @@
 			(project "rs232-rs485sniffer"
 				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4937")
-		(at 31.75 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "073680bb-6036-430c-9246-325cb250a6b0")
-		(property "Reference" "D1"
-			(at 34.29 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4937"
-			(at 34.29 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 31.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88508/1n4933.pdf"
-			(at 31.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fast Switching Plastic Rectifier, VRRM 600V, IF(AV) 1.0A, trr 200ns, DO-41"
-			(at 31.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 31.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b1d320f-41b4-4fbd-8ca8-5d6b318dd619")
-		)
-		(pin "1"
-			(uuid "a0f4a41c-60cb-48ff-8ca6-e1fb071d4016")
-		)
-		(instances
-			(project ""
-				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4708,7 +4433,7 @@
 				)
 			)
 		)
-		(property "Value" "supply"
+		(property "Value" "supply pin 5 GND pin 9 +12V"
 			(at 140.335 64.77 0)
 			(effects
 				(font
@@ -4820,94 +4545,6 @@
 			(project "rs232-rs485sniffer"
 				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4937")
-		(at 62.23 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8e78400-e21b-48f2-8e48-3b2bbc84dc7f")
-		(property "Reference" "D2"
-			(at 64.77 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4937"
-			(at 64.77 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88508/1n4933.pdf"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fast Switching Plastic Rectifier, VRRM 600V, IF(AV) 1.0A, trr 200ns, DO-41"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ac8d33e-4e12-437e-9337-f2db0b179cf5")
-		)
-		(pin "1"
-			(uuid "22267fdb-ef5a-4d73-a872-32f210cb9cb9")
-		)
-		(instances
-			(project "rs232-rs485sniffer"
-				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
-					(reference "D2")
 					(unit 1)
 				)
 			)
