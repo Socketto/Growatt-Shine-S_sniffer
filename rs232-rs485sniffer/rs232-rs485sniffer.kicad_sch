@@ -859,6 +859,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_UART:MAX232"
 			(pin_names
 				(offset 1.016)
@@ -2341,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 31.75 121.92)
+			(xy 31.75 86.36) (xy 31.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2431,6 +2555,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 114.3) (xy 31.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324b64cc-8c85-4f54-bead-d8e2dfb91ac2")
+	)
+	(wire
+		(pts
 			(xy 132.08 135.89) (xy 135.89 135.89)
 		)
 		(stroke
@@ -2448,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "37b06ab9-cfe9-41bb-863f-a2f8009814b2")
+	)
+	(wire
+		(pts
+			(xy 83.82 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba0111e-867f-4077-9c88-b297668ae413")
 	)
 	(wire
 		(pts
@@ -2471,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 139.7) (xy 85.09 121.92)
+			(xy 83.82 139.7) (xy 83.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 91.44) (xy 62.23 121.92)
+			(xy 62.23 91.44) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2681,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 121.92) (xy 62.23 121.92)
+			(xy 83.82 121.92) (xy 62.23 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2861,16 +3005,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 139.7) (xy 85.09 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8758d9-5c1e-4b5c-8aa9-931771b0de4f")
-	)
-	(wire
-		(pts
 			(xy 123.19 38.1) (xy 123.19 62.23)
 		)
 		(stroke
@@ -2898,6 +3032,16 @@
 			(type default)
 		)
 		(uuid "f6660812-565f-4cff-8398-a20c4e89aed5")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73a7202-8cc8-42fa-bfa8-0b6d664fce32")
 	)
 	(wire
 		(pts
@@ -3344,6 +3488,146 @@
 			(project ""
 				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
 					(reference "ReceiverRS-232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46864b95-539c-4eea-942a-2d0961518a9e")
+		(property "Reference" "R1"
+			(at 34.29 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 34.29 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+			(at 29.972 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "671e4982-4474-47a7-8eab-6cc961c5f0d1")
+		)
+		(pin "2"
+			(uuid "c66da466-2251-48b0-a2a0-0f4bfb737b38")
+		)
+		(instances
+			(project ""
+				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ffd01e2-8648-4d35-ad74-8bc47e57f95f")
+		(property "Reference" "R2"
+			(at 64.77 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 64.77 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+			(at 60.452 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79561f2f-c2cc-4ed5-9615-6263b0d898fe")
+		)
+		(pin "2"
+			(uuid "9411c18f-0042-4cb5-bd06-c94a92d71edf")
+		)
+		(instances
+			(project ""
+				(path "/f6392360-3747-4a58-917c-5b5441ac4e7b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
