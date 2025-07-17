@@ -14,7 +14,6 @@
 *.i
 *.s
 *.lst
-*.zip
 build/
 output/
 generated/
@@ -40,6 +39,7 @@ kicad_project_name/
 
 # Altri file temporanei di KiCad
 *.backup
+*-backups/
 *.kicad_wks~
 
 # Visual Studio
@@ -85,3 +85,4 @@ TestResults/
 # Altri file temporanei di MPLAB X
 *.bak
 *.swp
+rs232-rs485sniffer/fp-info-cache
